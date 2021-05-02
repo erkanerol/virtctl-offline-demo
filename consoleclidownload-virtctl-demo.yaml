@@ -1,0 +1,14 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleCLIDownload
+metadata:
+  name: virtctl-clidownloads-demo
+spec:
+  description: The virtctl client is a supplemental command-line utility for managing virtualization resources from the command line.
+  displayName: virtctl - KubeVirt command line interface
+  links:
+  - href: https://downloads-openshift-cnv.apps.iuo-eerol48.cnv-qe.rhcloud.com/virtctl-v0.40.0-linux-amd64
+    text: Download oc for Linux for x86_64
+  - href: https://downloads-openshift-cnv.apps.iuo-eerol48.cnv-qe.rhcloud.com/virtctl-v0.40.0-darwin-amd64
+    text: Download oc for Mac for x86_64
+  - href: https://downloads-openshift-cnv.apps.iuo-eerol48.cnv-qe.rhcloud.com/virtctl-v0.40.0-windows-amd64.exe
+    text: Download oc for Windows for x86_64

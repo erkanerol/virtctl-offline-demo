@@ -2,7 +2,7 @@
 
 set -eox pipefail
 
-IMAGE="${IMAGE:-"quay.io/erkanerol/httpd-virtctl"}"
-VERSION=v1
+IMAGE="${IMAGE:-"quay.io/erkanerol/httpd-virtctl:v1"}"
 
-docker build -t "${IMAGE}:${VERSION}" .
+docker build -t "${IMAGE}" .
+docker push "${IMAGE}"

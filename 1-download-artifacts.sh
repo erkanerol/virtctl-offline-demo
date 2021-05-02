@@ -2,6 +2,7 @@
 
 set -eox pipefail
 
+rm -Rf artifacts
 mkdir artifacts
 cd artifacts
 
