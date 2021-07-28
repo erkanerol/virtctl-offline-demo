@@ -4,24 +4,8 @@ This repo shows how to provide `virtctl` to users with ConsoleCliDownloads objec
 
 ## Build & Deploy
 
-- Download example artifacts from Github before packaging
 ```
-bash 1-download-artifacts.sh
-```
-
-- Build and push the container image for demo
-```
-export IMAGE=<full-image-reference>
-bash 2-build-container-image.sh
-```
-
-> `quay.io/erkanerol/httpd-virtctl` is available and public. You can use it without building.
-
-
-- Deploy the demo source
-```
-export IMAGE=<full-image-reference>
-bash 3-deploy-demo.sh
+bash deploy.sh
 ```
 
 ## Demo
